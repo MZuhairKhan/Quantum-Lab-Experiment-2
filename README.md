@@ -1,1 +1,1 @@
-# Quantum-Lab-Experiment-2
+# Quantum Lab Experiment 2
