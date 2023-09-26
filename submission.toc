@@ -1,0 +1,24 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Johnson-Nyquist Noise}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Method}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Amplifiers}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Results}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Noise floor sweep from \(0\) to \(12\) GHz without load or amplifier}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Noise floor measurements at \(6\) GHz without load or amplifier}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Raw data with the mean highlighted}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Noise analysis}{6}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Noise measurements at \(6\) GHz with a \(50 \TextOrMath {\textOmega }{\mathOmega }\) load but no amplifier}{7}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Raw data with the mean highlighted}{7}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Noise analysis}{7}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Noise measurements at \(6\) GHz with an amplifier but no load}{8}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Raw data with the mean highlighted}{8}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Noise analysis}{8}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Noise measurements at $\qty {6}{\giga \hertz }$ with a $\qty {40}{\decibel }$ amplifier and a $\qty {50}{\ohm }$ load at $\qty {293}{\kelvin }$}{9}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Raw data with the mean highlighted}{9}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Noise analysis}{9}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Noise measurements at $\qty {6}{\giga \hertz }$ with a $\qty {40}{\decibel }$ amplifier and a $\qty {50}{\ohm }$ load at $\qty {77}{\kelvin }$}{10}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Raw data with the mean highlighted}{10}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Noise analysis}{10}{subsubsection.3.6.2}%
+\contentsline {section}{\numberline {4}Conclusion}{10}{section.4}%
+\contentsline {section}{\numberline {5}References}{10}{section.5}%

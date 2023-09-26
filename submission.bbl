@@ -1,0 +1,102 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{morstedtExperimentNoiseMeasurements2023}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=dd8b477797fa5ee68e19234b2a17b4fa}{%
+           family={Mörstedt},
+           familyi={M\bibinitperiod},
+           given={Timm\bibnamedelima Fabian},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=e576c9fc52a5b92ae90fec0cfbc37004}{%
+           family={Kundu},
+           familyi={K\bibinitperiod},
+           given={Suman},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ab2cf36ec566d74921ebd575771aa6e}
+      \strng{fullhash}{3ab2cf36ec566d74921ebd575771aa6e}
+      \strng{bibnamehash}{3ab2cf36ec566d74921ebd575771aa6e}
+      \strng{authorbibnamehash}{3ab2cf36ec566d74921ebd575771aa6e}
+      \strng{authornamehash}{3ab2cf36ec566d74921ebd575771aa6e}
+      \strng{authorfullhash}{3ab2cf36ec566d74921ebd575771aa6e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experiment 2: {{Noise Measurements}}}
+      \field{year}{2023}
+      \field{dateera}{ce}
+    \endentry
+    \entry{nyquistThermalAgitationElectric1928}{article}{}
+      \name{author}{1}{}{%
+        {{hash=27f1ad9481709debfe2f1b1ea5e8c5bb}{%
+           family={Nyquist},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{27f1ad9481709debfe2f1b1ea5e8c5bb}
+      \strng{fullhash}{27f1ad9481709debfe2f1b1ea5e8c5bb}
+      \strng{bibnamehash}{27f1ad9481709debfe2f1b1ea5e8c5bb}
+      \strng{authorbibnamehash}{27f1ad9481709debfe2f1b1ea5e8c5bb}
+      \strng{authornamehash}{27f1ad9481709debfe2f1b1ea5e8c5bb}
+      \strng{authorfullhash}{27f1ad9481709debfe2f1b1ea5e8c5bb}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The electromotive force due to thermal agitation in conductors is calculated by means of principles in thermodynamics and statistical mechanics. The results obtained agree with results obtained experimentally.}
+      \field{day}{1}
+      \field{journaltitle}{Physical Review}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shortjournal}{Phys. Rev.}
+      \field{title}{Thermal {{Agitation}} of {{Electric Charge}} in {{Conductors}}}
+      \field{urlday}{26}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{volume}{32}
+      \field{year}{1928}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{110\bibrangedash 113}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRev.32.110
+      \endverb
+      \verb{file}
+      \verb D:\zotero-system\storage\46RGXLD8\PhysRev.32.html
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.32.110
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.32.110
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
