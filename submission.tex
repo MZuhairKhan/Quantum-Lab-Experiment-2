@@ -421,7 +421,7 @@ For this experiment, we conducted $6$ different measurements using a spectrum an
 	\hline
 	Resolution Bandwidth&  $\qty{2}{\mega\hertz}$ \\
 	\hline
-	Video Bandwidth &  $\qty{2}{\kilo\hertz}$ \\
+	Video Bandwidth &  $\qty{10}{\kilo\hertz}$ \\
 	\hline
 	Frequency & $\qty{6}{\giga\hertz}$ \\
 	\hline
@@ -447,12 +447,19 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
  	P_{\textrm{out}} = G_1G_2k_B\left(T+T_{N_1}+\tfrac{T_{N_2}}{G_1} \right)\Delta f
  \end{equation}
  
+ We can rewrite this equation to get the temperature instead:
+ 
+  \begin{equation}
+ 	T = \tfrac{P_{\textrm{out}}}{G_1G_2k_B\Delta f} -T_{N_1} -\tfrac{T_{N_2}}{G_1} 
+ \end{equation}
+ 
+ As such, the noise temperature for the first amplifier determines most of the noise. The details for our amplifiers are given below:
+ 
 \begin{figure}[H]
 	\includegraphics[width=1\linewidth]{"noise of minicircuits amplifier chain"}
 	\caption{Schematic diagram of the amplifier setup}
 	\label{fig:noise-of-minicircuits-amplifier-chain}
 \end{figure}
-
 \section{Results}
 \hypertarget{noise-floor-sweep-from-0-to-12-ghz-without-load-or-amplifier}{%
 	\subsection{\texorpdfstring{Noise floor sweep from \(0\) to \(12\) GHz
@@ -489,8 +496,7 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 \hypertarget{noise-analysis}{%
 	\subsubsection{Noise analysis}\label{noise-analysis_1}}
 
-
-	The average power is $\qty{1.397}{\pico\watt}$.
+	The actual average power is $\qty{1.397}{\pico\watt}$.
 	The noise level calculated via root mean square is $\qty{1.407}{\pico\watt}$.
 	The noise level calculated via peak-to-peak is $\qty{1.011}{\pico\watt}$.
 	
@@ -520,8 +526,9 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 \hypertarget{noise-analysis}{%
 	\subsubsection{Noise analysis}\label{noise-analysis_2}}
 
-
-	The average power is $\qty{1.410}{\pico\watt}$.
+	The expected power is $k_B T\Delta f = k_B \times \qty{298}{\kelvin} \times \qty{2}{\mega\hertz} \approx \qty{8.229}{\femto\watt}$.
+	
+	However, the average power is $\qty{1.410}{\pico\watt}$.
 	The noise level calculated via root mean square is $\qty{1.420}{\pico\watt}$.
 	The noise level calculated via peak-to-peak is $\qty{0.9987}{\pico\watt}$.
 	
@@ -533,7 +540,6 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 			amplifier but no
 			load}{Noise measurements at 6 GHz with an amplifier but no load}}\label{noise-measurements-at-6-ghz-with-an-amplifier-but-no-load}}
 
- 
 
 \hypertarget{raw-data-with-the-mean-highlighted}{%
 	\subsubsection{Raw data with the mean
@@ -585,12 +591,8 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 	
 	The signal-to-noise ratio calculated via root mean square is $0.9927$.
 	The signal-to-noise ratio calculated via peak-to-peak is $1.206$.
-
-
-
+	
 \subsection{Noise measurements at $\qty{6}{\giga\hertz}$ with a $\qty{40}{\decibel}$ amplifier and a $\qty{50}{\ohm}$ load at $\qty{77}{\kelvin}$}
-
- 
 
 \hypertarget{raw-data-with-the-mean-highlighted}{%
 	\subsubsection{Raw data with the mean
@@ -614,7 +616,9 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 	
 	The signal-to-noise ratio calculated via root mean square is $0.9932$.
 	The signal-to-noise ratio calculated via peak-to-peak is $1.438$.
+
 \section{Conclusion}
+We get an average power of  $\qty{28.99}{\pico\watt}$. As such, we can back estimate the temperature using equation $3$.  This gives us a value of 
 \section{References}
 \printbibliography
 \end{document}

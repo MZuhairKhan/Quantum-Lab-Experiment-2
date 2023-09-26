@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.20)  26 SEP 2023 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.20)  26 SEP 2023 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1736,170 +1736,170 @@ Package pdftex.def Info: PHYS_C0258_Noise_measurements.png  used on input line
 File: noise of minicircuits amplifier chain.png Graphic file (type png)
 <use noise of minicircuits amplifier chain.png>
 Package pdftex.def Info: noise of minicircuits amplifier chain.png  used on inp
-ut line 451.
+ut line 459.
 (pdftex.def)             Requested size: 970.37294pt x 514.1697pt.
-<Plots/noise_floor_sweep.png, id=156, 570.933pt x 374.43086pt>
+ [4 <./PHYS_C0258_Noise_measurements.png>]
+<Plots/noise_floor_sweep.png, id=170, 570.933pt x 374.43086pt>
 File: Plots/noise_floor_sweep.png Graphic file (type png)
 <use Plots/noise_floor_sweep.png>
-Package pdftex.def Info: Plots/noise_floor_sweep.png  used on input line 463.
+Package pdftex.def Info: Plots/noise_floor_sweep.png  used on input line 470.
 (pdftex.def)             Requested size: 570.9316pt x 374.42995pt.
- [4 <./PHYS_C0258_Noise_measurements.png> <./noise of minicircuits amplifier ch
-ain.png>]
 <Plots/noise_floor_6_GHz.png, id=171, 570.933pt x 374.43086pt>
 File: Plots/noise_floor_6_GHz.png Graphic file (type png)
 <use Plots/noise_floor_6_GHz.png>
-Package pdftex.def Info: Plots/noise_floor_6_GHz.png  used on input line 482.
+Package pdftex.def Info: Plots/noise_floor_6_GHz.png  used on input line 489.
 (pdftex.def)             Requested size: 570.9316pt x 374.42995pt.
- [5 <./Plots/noise_floor_sweep.png>]
-<Plots/noise_floor_6_GHz_50ohm.png, id=179, 570.933pt x 374.43086pt>
+ [5 <./noise of minicircuits amplifier chain.png> <./Plots/noise_floor_sweep.pn
+g>]
+<Plots/noise_floor_6_GHz_50ohm.png, id=181, 570.933pt x 374.43086pt>
 File: Plots/noise_floor_6_GHz_50ohm.png Graphic file (type png)
 <use Plots/noise_floor_6_GHz_50ohm.png>
 Package pdftex.def Info: Plots/noise_floor_6_GHz_50ohm.png  used on input line 
-513.
+519.
 (pdftex.def)             Requested size: 570.9316pt x 374.42995pt.
  [6 <./Plots/noise_floor_6_GHz.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{noise-analysi
 s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.521 ...{Noise analysis}\label{noise-analysis_2}}
+l.527 ...{Noise analysis}\label{noise-analysis_2}}
                                                   
 pdfTeX warning (ext4): destination with the same identifier (name{raw-data-with
 -the-mean-highlighted}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.540 ...el{raw-data-with-the-mean-highlighted_2}}
+l.546 ...el{raw-data-with-the-mean-highlighted_2}}
                                                   
-<Plots/noise_floor_6_GHz_amplif.png, id=190, 570.933pt x 374.43086pt>
+<Plots/noise_floor_6_GHz_amplif.png, id=192, 570.933pt x 374.43086pt>
 File: Plots/noise_floor_6_GHz_amplif.png Graphic file (type png)
 <use Plots/noise_floor_6_GHz_amplif.png>
 Package pdftex.def Info: Plots/noise_floor_6_GHz_amplif.png  used on input line
- 543.
+ 549.
 (pdftex.def)             Requested size: 570.9316pt x 374.42995pt.
  [7
 pdfTeX warning (ext4): destination with the same identifier (name{raw-data-with
 -the-mean-highlighted}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.547 
+l.553 
        <./Plots/noise_floor_6_GHz_50ohm.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{noise-analysi
 s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.550 ...{Noise analysis}\label{noise-analysis_3}}
+l.556 ...{Noise analysis}\label{noise-analysis_3}}
                                                   
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 568.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 568.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 568.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 568.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 568.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 568.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 568.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 562.
+(hyperref)                removing `math shift' on input line 568.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{raw-data-with
 -the-mean-highlighted}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.568 ...el{raw-data-with-the-mean-highlighted_3}}
+l.574 ...el{raw-data-with-the-mean-highlighted_3}}
                                                   
-<Plots/noise_floor_6_GHz_amplif_50ohm_rt.png, id=199, 570.933pt x 374.43086pt>
+<Plots/noise_floor_6_GHz_amplif_50ohm_rt.png, id=201, 570.933pt x 374.43086pt>
 File: Plots/noise_floor_6_GHz_amplif_50ohm_rt.png Graphic file (type png)
 <use Plots/noise_floor_6_GHz_amplif_50ohm_rt.png>
 Package pdftex.def Info: Plots/noise_floor_6_GHz_amplif_50ohm_rt.png  used on i
-nput line 571.
+nput line 577.
 (pdftex.def)             Requested size: 570.9316pt x 374.42995pt.
  [8 <./Plots/noise_floor_6_GHz_amplif.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{noise-analysi
 s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.578 ...{Noise analysis}\label{noise-analysis_4}}
+l.584 ...{Noise analysis}\label{noise-analysis_4}}
                                                   
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
+(hyperref)                removing `math shift' on input line 595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
+(hyperref)                removing `math shift' on input line 595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
+(hyperref)                removing `math shift' on input line 595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
+(hyperref)                removing `math shift' on input line 595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
+(hyperref)                removing `math shift' on input line 595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
+(hyperref)                removing `math shift' on input line 595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
+(hyperref)                removing `math shift' on input line 595.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 591.
+(hyperref)                removing `math shift' on input line 595.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{raw-data-with
 -the-mean-highlighted}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.597 ...el{raw-data-with-the-mean-highlighted_7}}
+l.599 ...el{raw-data-with-the-mean-highlighted_7}}
                                                   
-<Plots/noise_floor_6_GHz_amplif_50ohm_lt.png, id=207, 570.933pt x 374.43086pt>
+<Plots/noise_floor_6_GHz_amplif_50ohm_lt.png, id=209, 570.933pt x 374.43086pt>
 File: Plots/noise_floor_6_GHz_amplif_50ohm_lt.png Graphic file (type png)
 <use Plots/noise_floor_6_GHz_amplif_50ohm_lt.png>
 Package pdftex.def Info: Plots/noise_floor_6_GHz_amplif_50ohm_lt.png  used on i
-nput line 600.
+nput line 602.
 (pdftex.def)             Requested size: 570.9316pt x 374.42995pt.
  [9 <./Plots/noise_floor_6_GHz_amplif_50ohm_rt.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{noise-analysi
 s}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.608 ...{Noise analysis}\label{noise-analysis_7}}
+l.610 ...{Noise analysis}\label{noise-analysis_7}}
                                                   
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
-19.
+23.
 
 (C:\Users\khanm\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-[10 <./Plots/noise_floor_6_GHz_amplif_50ohm_lt.png>] (submission.aux)
+[10 <./Plots/noise_floor_6_GHz_amplif_50ohm_lt.png>] [11] (submission.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-11>
@@ -1911,8 +1911,8 @@ Package logreq Info: Writing requests to 'submission.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38843 strings out of 475502
- 783545 string characters out of 5761813
+ 38845 strings out of 475502
+ 783564 string characters out of 5761813
  1928248 words of memory out of 5000000
  59505 multiletter control sequences out of 15000+600000
  575011 words of font info for 84 fonts, out of 8000000 for 9000
@@ -1932,15 +1932,16 @@ Users/khanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.
 pfb><C:/Users/khanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/s
 fbx1728.pfb><C:/Users/khanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm
 -super/sfcc1200.pfb><C:/Users/khanm/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/cm-super/sfrm0800.pfb><C:/Users/khanm/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/cm-super/sfrm1200.pfb><C:/Users/khanm/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/khanm/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Users/khanm/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/khanm/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on submission.pdf (10 pages, 11080870 bytes).
+ublic/cm-super/sfrm0600.pfb><C:/Users/khanm/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/cm-super/sfrm0800.pfb><C:/Users/khanm/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/khanm/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/khanm/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Users/khanm/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb><C:/Users/k
+hanm/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on submission.pdf (11 pages, 11103715 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
  237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
