@@ -398,14 +398,15 @@
 \tableofcontents
 \newpage
 \section{Introduction}
-The objective of this experiment was to measure the noise spectra emitted by a resistor, followed by analysis of different noise types, temperature dependent noise levels, and noise mitigation\autocite{morstedtExperimentNoiseMeasurements2023}. This was to be accomplished via a spectrum analyser and analysing the noise levels at room temperature ($\qty{293}{\kelvin}$) and liquid nitrogen ($\qty{77}{\kelvin}$). Specifically, we sought to observe the Johnson-Nyquist noise\autocite{nyquistThermalAgitationElectric1928} and see how we could minimise it.
+The objective of this experiment was to measure the noise spectra emitted by a resistor, followed by analysis of different noise types, temperature dependent noise levels, and noise mitigation\autocite{morstedtExperimentNoiseMeasurements2023}. This was to be accomplished via a spectrum analyser and analysing the noise levels at room temperature ($\qty{298}{\kelvin}$) and liquid nitrogen ($\qty{77}{\kelvin}$). Specifically, we sought to observe the Johnson-Nyquist noise\autocite{nyquistThermalAgitationElectric1928} and see how we could minimise it.
 \subsection{Johnson-Nyquist Noise}
 Johnson-Nyquist noise occurs due to thermal agitation of the electric charges in a conductor coupled to a thermal environment\autocite{morstedtExperimentNoiseMeasurements2023,nyquistThermalAgitationElectric1928}. This noise only depends on the temperature in Kelvin, $T$, and the bandwidth $\Delta f$. By probing at a constant bandwidth, we observe that $N \propto T$.
 \begin{equation}
 	N = k_BT\Delta f
 \end{equation}
+\newpage
 \section{Method}
-For this experiment, we conducted $6$ different measurements using a spectrum analyser. Specifically, we used the FSV40-N spectrum analyser, which can observe frequencies from $\qty{9}{\kilo\hertz}$ to $\qty{40}{\giga\hertz}$. Then, we measure the Johnson-Nyquist noise via a spectrum analyser. Recommended settings for the spectrum analyser are shown here: 
+For this experiment, we conducted $6$ different measurements using a spectrum analyser. Specifically, we used the FSV40-N spectrum analyser, which can observe frequencies from $\qty{9}{\kilo\hertz}$ to $\qty{40}{\giga\hertz}$. Then, we measure the Johnson-Nyquist noise via a spectrum analyser. Our settings for the spectrum analyser are shown here: 
 
 \begin{tabular}{|c|c|}
 	\hline
@@ -431,7 +432,7 @@ For this experiment, we conducted $6$ different measurements using a spectrum an
 
 Here, the resolution bandwidth is the minimum bandwidth over which two signals are still separable, whereas the video bandwidth can be thought of as a low pass filter which filters noise. Only the resolution bandwidth reduces the noise floor; the video bandwidth only reduces the noise on the trace.
 
-First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\giga\hertz}$. Next, we measure the noise level over a $\qty{100}{\milli\second}$ time interval at $\qty{6}{\giga\hertz}$. This measurement is then repeated with a $\qty{50}{\ohm}$ resistor, which is then replaced by a $\qty{40}{\decibel}$ amplifier. Finally, we measure with both the resistor and the amplifier attached. So far, all measurements have happened at room temperature, which we take to be $\qty{298}{\kelvin}$. However, for the final experiment, we repeat the measurement with both the resistor and the amplifier in a liquid nitrogen bath. This gives us a second measurement at approximately $\qty{298}{\kelvin}$, with which we can compare equation $1$. The final setup is shown here:
+First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\giga\hertz}$. This was achieved with slightly different settings from the one in the table, where we set the span to $\qty{12}{\giga\hertz}$. Next, we measure the noise level over a $\qty{100}{\milli\second}$ time interval at $\qty{6}{\giga\hertz}$. This measurement is then repeated with a $\qty{50}{\ohm}$ resistor, which is then replaced by a $\qty{40}{\decibel}$ amplifier. Finally, we measure with both the resistor and the amplifier attached. So far, all measurements have happened at room temperature, which we take to be $\qty{298}{\kelvin}$. However, for the final experiment, we repeat the measurement with both the resistor and the amplifier in a liquid nitrogen bath. This gives us a second measurement at approximately $\qty{298}{\kelvin}$, with which we can compare equation $1$. The final setup is shown here:
 
 \begin{figure}[H]
 	\includegraphics[width=1\linewidth]{PHYS_C0258_Noise_measurements}
@@ -460,6 +461,8 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 	\caption{Schematic diagram of the amplifier setup}
 	\label{fig:noise-of-minicircuits-amplifier-chain}
 \end{figure}
+
+\newpage
 \section{Results}
 \hypertarget{noise-floor-sweep-from-0-to-12-ghz-without-load-or-amplifier}{%
 	\subsection{\texorpdfstring{Noise floor sweep from \(0\) to \(12\) GHz
@@ -472,6 +475,7 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 	\label{fig:noisefloorsweep}
 \end{figure}
 
+As we can see, the noise is very stable around $\qty{1}{\pico\watt}$, with the noise peeking around $\qty{6.5}{\giga\hertz}$ at around $\qty{1.5}{\pico\watt}$. This also follows the noise specifications quite well, however, the gain flatness is not quite $\pm \qty{0.9}{\decibel}$ between $\qty{0.5}{\giga\hertz}$ and $\qty{7}{\giga\hertz}$, as it is around $\qty{13}{\decibel}$.
  
 
 \hypertarget{noise-floor-measurements-at-6-ghz-without-load-or-amplifier}{%
@@ -526,9 +530,7 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 \hypertarget{noise-analysis}{%
 	\subsubsection{Noise analysis}\label{noise-analysis_2}}
 
-	The expected power is $k_B T\Delta f = k_B \times \qty{298}{\kelvin} \times \qty{2}{\mega\hertz} \approx \qty{8.229}{\femto\watt}$.
-	
-	However, the average power is $\qty{1.410}{\pico\watt}$.
+	The average power is $\qty{1.410}{\pico\watt}$.
 	The noise level calculated via root mean square is $\qty{1.420}{\pico\watt}$.
 	The noise level calculated via peak-to-peak is $\qty{0.9987}{\pico\watt}$.
 	
@@ -564,8 +566,8 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 	The signal-to-noise ratio calculated via peak-to-peak is $1.171$.
 
 
-\hypertarget{noise-measurements-at-6-ghz-with-a-40-db-amplifier-and-a-50-omega-load-at-293k}{%
-	\subsection{Noise measurements at $\qty{6}{\giga\hertz}$ with a $\qty{40}{\decibel}$ amplifier and a $\qty{50}{\ohm}$ load at $\qty{293}{\kelvin}$}\label{noise-measurements-at-6-ghz-with-a-40-db-amplifier-and-a-50-omega-load-at-293k}}
+\hypertarget{noise-measurements-at-6-ghz-with-a-40-db-amplifier-and-a-50-omega-load-at-298k}{%
+	\subsection{Noise measurements at $\qty{6}{\giga\hertz}$ with a $\qty{40}{\decibel}$ amplifier and a $\qty{50}{\ohm}$ load at $\qty{298}{\kelvin}$}\label{noise-measurements-at-6-ghz-with-a-40-db-amplifier-and-a-50-omega-load-at-298k}}
 
  
 
@@ -575,7 +577,7 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 
 \begin{figure}[H]
 	\includegraphics[width=1\linewidth]{Plots/noise_floor_6_GHz_amplif_50ohm_rt}
-	\caption{Noise measurements at $\qty{6}{\giga\hertz}$ with a $\qty{40}{\decibel}$ amplifier and a $\qty{50}{\ohm}$ load at $\qty{293}{\kelvin}$}
+	\caption{Noise measurements at $\qty{6}{\giga\hertz}$ with a $\qty{40}{\decibel}$ amplifier and a $\qty{50}{\ohm}$ load at $\qty{298}{\kelvin}$}
 	\label{fig:noisefloor6ghzamplif50ohmrt}
 \end{figure}
 
@@ -617,8 +619,52 @@ First, we measure over different frequencies, sweeping from $0$ to  $\qty{12}{\g
 	The signal-to-noise ratio calculated via root mean square is $0.9932$.
 	The signal-to-noise ratio calculated via peak-to-peak is $1.438$.
 
+\newpage
 \section{Conclusion}
-We get an average power of  $\qty{28.99}{\pico\watt}$. As such, we can back estimate the temperature using equation $3$.  This gives us a value of 
+
+As a short reminder, for the $5$ time sweeps, we get an average power output of $\qty{1.397}{\pico\watt}, \qty{1.410}{\pico\watt}, \qty{17.58}{\pico\watt}, \qty{46.45}{\pico\watt}$ and $\qty{28.99}{\pico\watt}$, corresponding to nothing, only load, only amplifier, both load and amplifier at room temperature and both load and amplifier in a liquid nitrogen bath. 
+
+At room temperature, we observe that simply adding the load does not showcase a large change, however, with the $\qty{40}{\decibel}$ amplifier, we observe that adding the load causes the noise to almost double.
+
+Additionally, by going over all the noise analyses, we observe that the root mean square noise level calculation is more accurate as it is less prone to being affected by outliers. Additionally, it was very close to the average power, as it resulted in a consistent signal-to-noise ratio of around $0.99$.
+
+\subsection{Noise dependence on temperature}
+By comparing the complete setup at $\qty{298}{\kelvin}$ and $\qty{77}{\kelvin}$, we can check how the noise dependence changes. Here, we have the plot with both results overlaid:
+
+\begin{figure}[H]
+	\includegraphics[width=1\linewidth]{Plots/comparison}
+	\caption{}
+	\label{fig:comparison}
+\end{figure}
+
+As we can see, the noise drops by almost a factor of 2 from $\qty{46.45}{\pico\watt}$ to $\qty{28.99}{\pico\watt}$.
+
+
+\subsection{Temperature analysis}
+
+We can calculate the theoretical noise we expect from a few of the setups and compare them to our actual results. We kept the resolution bandwidth fixed at $\qty{2}{\mega\hertz}$, and the gain and noise temperature of the amplifiers are fixed at $\qty{20}{\decibel}$, or $100$, and $\qty{102}{\kelvin}$ respectively.
+
+First, we can use equation $1$ to calculate the expected noise with just a $\qty{50}{\ohm}$ load at $\qty{298}{\kelvin}$.
+
+The expected power is $k_B T\Delta f = k_B \times \qty{298}{\kelvin} \times \qty{2}{\mega\hertz} \approx \qty{8.229}{\femto\watt}$.
+
+However, the actual average power is $\qty{1.410}{\pico\watt}$, which is about $2$ orders of magnitude larger.
+
+Similarly, we can use equation $2$ to calculate the expected noise with the $\qty{40}{\decibel}$ amplifier and a $\qty{50}{\ohm}$ load at $\qty{298}{\kelvin}$ and $\qty{77}{\kelvin}$.
+
+At $\qty{298}{\kelvin}$, the expected power is $G^2k_B\Delta f\left(T+T_{N} + \frac {T_N}G \right) = 100^2\times k_B \times \qty{2}{\mega\hertz}\times \left(\qty{298}{\kelvin} +\qty{102}{\kelvin}  + \frac{\qty{102}{\kelvin}}{100}\right) \approx \qty{110.7}{\pico\watt}$.
+
+However, the actual average power is $\qty{46.45}{\pico\watt}$, which is about half of the theoretical power.
+
+At $\qty{77}{\kelvin}$, the expected power is $G^2k_B\Delta f\left(T+T_{N} + \frac {T_N}G \right) = 100^2\times k_B \times \qty{2}{\mega\hertz}\times \left(\qty{77}{\kelvin} +\qty{102}{\kelvin}  + \frac{\qty{102}{\kelvin}}{100}\right) \approx \qty{49.71}{\pico\watt}$.
+
+However, the actual average power is $\qty{28.99}{\pico\watt}$, which is about half of the theoretical power once again.
+
+In fact, estimating the actual temperatures based on the Johnson-Nyquist noise using equations $1$ and $3$ respectively gives us $\qty{51060}{\kelvin}, \qty{65.20}{\kelvin}$ and $\qty{1.967}{\kelvin}$ respectively, which are wildly different when compared to the actual values of $\qty{298}{\kelvin}, \qty{298}{\kelvin}$ and $\qty{77}{\kelvin}$ respectively. This strongly suggests that there were additional noise sources which were causing this discrepancy. However, the liquid nitrogen noise can potentially be explained by considering that the actual temperature is smaller than the noise temperature of the amplifiers.
+
+In conclusion, while we get wildly different noises from the expected values, we do observe the rapid drop in noise as we cool from room temperature to liquid nitrogen. However, Johnson-Nyquist noise alone is not sufficient to explain the exact values. As such, Johnson-Nyquist noise is not a good tool to use as a primary thermometer, even though it has a linear dependence on time.
+
+\newpage
 \section{References}
 \printbibliography
 \end{document}
